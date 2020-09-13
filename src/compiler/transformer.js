@@ -27,7 +27,7 @@ function traverseAndReplaceBark(node) {
 
   return node;
 }
-function setVariableKind(blepAST) {
+function transformNodes(blepAST) {
   const jsBody = [];
   for (let node of blepAST) {
     if (node.type === "VariableDeclaration") {
@@ -44,7 +44,7 @@ function setVariableKind(blepAST) {
 }
 
 function transform(blepAST) {
-  const jsNodes = setVariableKind(blepAST.body);
+  const jsNodes = transformNodes(blepAST.body);
   blepAST.body = jsNodes;
   return blepAST;
 }
