@@ -1,6 +1,8 @@
 /**
  * Copied from https://gist.github.com/borgar/451393/7698c95178898c9466214867b46acb2ab2f56d68
  * Made by borgar (https://github.com/borgar)
+ *
+ * Saurabh has absolutely no idea how this works.
  */
 
 /*
