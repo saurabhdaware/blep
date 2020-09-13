@@ -7,7 +7,11 @@ const compile = require("./compiler");
 const codeToExecute = `
 boop a = "Hello, "; 
 boop b = "World!";
+boop num1 = 11;
+boop num2 = 58;
+
 bark(a + b);
+bark(num1 + num2);
 `;
 
 compile(codeToExecute);
