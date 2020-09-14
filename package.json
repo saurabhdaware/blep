@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "bin": "bin/blep.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "nodemon bin/blep.js examples/hello-world.blep",
     "dev": "npm start"
   },
   "dependencies": {
