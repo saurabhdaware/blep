@@ -1,6 +1,6 @@
 {
   "name": "blep",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A toy language that defines variables with boop keyword and prints on screen with bark",
   "main": "src/index.js",
   "bin": "bin/blep.js",
