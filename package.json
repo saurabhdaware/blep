@@ -1,10 +1,12 @@
 {
   "name": "blep",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "A toy language that defines variables with boop keyword and prints on screen with bark",
   "main": "src/index.js",
+  "bin": "bin/blep.js",
   "scripts": {
-    "start": "nodemon src/index.js"
+    "start": "nodemon src/index.js",
+    "dev": "npm start"
   },
   "dependencies": {
     "escodegen": "2.0.0"

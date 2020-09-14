@@ -1,0 +1,7 @@
+boop a = "Hello, "; 
+boop b = "World!";
+boop num1 = 11;
+boop num2 = 10;
+
+bark(a + b);
+bark(num1 + num2);

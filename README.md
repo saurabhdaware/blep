@@ -13,8 +13,8 @@ bark(a + b);
 ```sh
 git clone https://github.com/saurabhdaware/blep.git
 cd blep/
-npm install
-node src/index.js
+yarn
+yarn dev
 ```
 
 You can try changing the code in `src/index.js`
