@@ -1,5 +1,7 @@
 # Blep Language 🐶
 
+*Note: I will not be maintaining this project. I made it only to learn about ASTs and thought I can open-source this code so that people can see the code. If you find something that I've implemented in wrong or not ideal way, feel free to send PR but there won't be any new additions to this language*
+
 A simple programming language where you define variables with `boop` keyword and print them with `bark` keyword. Compiler built in JavaScript.
 
 ```
